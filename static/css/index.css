@@ -192,6 +192,14 @@ body {
   display: inline-block;
 }
 
+.author-block a {
+  margin-right: 0.3em;
+}
+
+.author-block sup {
+  margin-right: 0.5em;
+}
+
 .publication-banner img {
 }
 

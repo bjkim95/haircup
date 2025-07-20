@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars - A hair-compositional universal prior model for 3D head avatars, enabling seamless face and hair transfer between avatars while preserving identity."/>
+  <meta property="og:title" content="HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars"/>
+  <meta property="og:description" content="A hair-compositional universal prior model for 3D head avatars, enabling seamless face and hair transfer between avatars while preserving identity."/>
+  <meta property="og:url" content="https://snuvclab.github.io/haircup/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/haircup_banner_200.jpg" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars">
+  <meta name="twitter:description" content="A universal prior model for 3D head avatars with explicit hair compositionality, enabling seamless face and hair transfer between avatars while preserving identity.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/haircup_banner_200.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="3D Gaussian Avatars, Hair Compositionality, 3D Head Modeling, Computer Vision, ICCV 2025, Neural Rendering, Avatar Generation, Hair Transfer, Face Transfer, 3D Reconstruction">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+  <title>HairCUP</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars</h1>
+              <div class="is-size-5 publication-authors">
+                <!-- First line -->
+                <span class="author-block">
+                  <a href="https://bjkim95.github.io/" target="_blank">Byungjun Kim</a><sup>1,2*</sup>,
+                  <a href="https://shunsukesaito.github.io/" target="_blank">Shunsuke Saito</a><sup>2</sup>,
+                  <a href="https://sites.google.com/view/gjnam" target="_blank">Giljoo Nam</a><sup>2</sup>,
+                </span>
+                <!-- Second line -->
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=7aabHgsAAAAJ&hl=en" target="_blank">Tomas Simon</a><sup>2</sup>,
+                  <a href="https://scholar.google.com/citations?user=ss-IvjMAAAAJ" target="_blank">Jason Saragih</a><sup>2</sup>,
+                  <a href="https://jhugestar.github.io/" target="_blank">Hanbyul Joo</a><sup>1&dagger;</sup>,
+                  <a href="https://junxuan-li.github.io/" target="_blank">Junxuan Li</a><sup>2&dagger;</sup>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup>Seoul National University,</span>
+                <span class="author-block"><sup>2</sup>Codec Avatars Lab, Meta</span>
+                <span class="eql-cntrb"><small><br><sup>*</sup>Work done during the internship at Codec Avatars Lab, Meta</small></span>
+                <span class="eql-cntrb"><small><br><sup>&dagger;</sup>Co-corresponding authors</small></span>
+              </div>
+
+              <div class="columns is-centered">
+                <div class="column is-narrow has-text-centered">
+                  <div class="is-size-4 publication-venue" style="margin-top: 1rem;">ICCV 2025</div>
+                </div>
+              </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://snuvclab.github.io/haircup/" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!--
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+                  -->
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://snuvclab.github.io/haircup/" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+          Our model is a <b>Hair</b>-<b>C</b>ompositional <b>U</b>niversal <b>P</b>rior for Relightable 3D Gaussian Avatars.
+      </h2>
+      <!-- Video tag -->
+      <video class="responsive-media" autoplay controls muted loop playsinline>
+        <source src="static/videos/teaser_websafe2.mp4" type="video/mp4">
+      </video>
+      <h2 class="is-size-6 has-text-centered mobile-subtitle">
+        From left to right: the target subject's expression, avatar animation with varying hairstyles, and relighting results.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present a universal prior model for 3D head avatars with explicit hair compositionality.
+          </p>
+          <p>
+            Existing approaches to build generalizable priors for 3D head avatars often adopt a holistic modeling approach, treating the face and hair as an inseparable entity. This overlooks the inherent compositionality of the human head, making it difficult for the model to naturally disentangle face and hair representations, especially when the dataset is limited. Furthermore, such holistic models struggle to support applications like 3D face and hairstyle swapping in a flexible and controllable manner.
+          </p>
+          <p>
+            To address these challenges, we introduce a prior model that explicitly accounts for the compositionality of face and hair, learning their latent spaces separately. A key enabler of this approach is our synthetic hairless data creation pipeline, which removes hair from studio-captured datasets using estimated hairless geometry and texture derived from a diffusion prior. By leveraging a paired dataset of hair and hairless captures, we train disentangled prior models for face and hair, incorporating compositionality as an inductive bias to facilitate effective separation.
+          </p>
+          <p>
+            Our model's inherent compositionality enables seamless transfer of face and hair components between avatars while preserving identity. Additionally, we demonstrate that our model can be fine-tuned in a few-shot manner using monocular captures to create high-fidelity, hair-compositional 3D head avatars for unseen subjects. These capabilities highlight the practical applicability of our approach in real-world scenarios, paving the way for flexible and expressive 3D avatar generation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="content has-text-centered">
+        <img src="static/images/teaser_resized.png" class="responsive-media" alt="Teaser Image">
+    </div>
+    <h2 class="subtitle has-text-centered">
+      <span class="rgca">HairCUP</span>. Our model is a compositional universal avatar model that generates relightable Gaussian codec avatars for multiple subjects using a single model. It separately models hair and face, enabling seamless hairstyle transfer between avatars without addiitonal optimization.
+    </h2>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre style="overflow-x: auto; background: #f5f5f5; padding: 1em; border-radius: 6px; font-size: 0.9em;"><code>
+@article{kim2025haircup,
+  title={HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars},
+  author={Kim, Byungjun and Saito, Shunsuke and Nam, Giljoo and Simon, Tomas and Saragih, Jason and Joo, Hanbyul and Li, Junxuan},
+  journal={arXiv preprint arXiv:2507.XXXX},
+  year={2025}
+}
+    </code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>

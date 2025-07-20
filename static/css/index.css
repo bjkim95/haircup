@@ -192,14 +192,15 @@ body {
   display: inline-block;
 } */
 
-.author-block a {
-  margin-right: 1.2em;
+.author-block span {
   display: inline-block;
+  margin-right: 1.2em;
 }
+
 .publication-authors sup {
   font-size: 0.75em;
   vertical-align: super;
-  margin-left: 0.1em;
+  margin-left: 0; /* no gap between name and superscript */
 }
 
 .publication-banner img {

@@ -201,6 +201,18 @@ body {
   font-size: 0.75em;
   vertical-align: super;
   margin-left: 0; /* no gap between name and superscript */
+  margin-right: 0;
+  letter-spacing: -0.1em; /* slightly reduce letter spacing */
+}
+
+.publication-authors a {
+  margin-right: 0;
+  letter-spacing: normal;
+}
+
+.author-block sup {
+  margin-right: 0;
+  letter-spacing: -0.1em;
 }
 
 .publication-banner img {

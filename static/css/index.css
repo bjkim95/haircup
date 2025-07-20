@@ -169,11 +169,6 @@ body {
     color: #555;
     width: fit-content;
     font-weight: bold;
-    margin-bottom: 0.5rem !important; /* Reduce gap to icons below */
-}
-
-.publication-links {
-  margin-top: 0.5rem !important; /* Reduce top margin of links */
 }
 
 .publication-awards {

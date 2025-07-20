@@ -188,16 +188,18 @@ body {
     text-decoration: underline;
 }
 
-.author-block {
+/* .author-block {
   display: inline-block;
-}
+} */
 
 .author-block a {
-  margin-right: 0.3em;
+  margin-right: 1.2em;
+  display: inline-block;
 }
-
-.author-block sup {
-  margin-right: 0.5em;
+.publication-authors sup {
+  font-size: 0.75em;
+  vertical-align: super;
+  margin-left: 0.1em;
 }
 
 .publication-banner img {

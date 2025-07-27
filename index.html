@@ -212,8 +212,8 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-2">Hair Transfer across Avatars</h2>
-      <p class="subtitle has-text-centered" style="margin-bottom: 2rem;">
+      <h2 class="title is-3">Hair Transfer across Avatars</h2>
+      <p class="subtitle has-text-left" style="margin-bottom: 2rem;">
         HairCUP enables hair transfer across avatars by leveraging the compositionality of the model.
       </p>
           <!-- Single Face + Multiple Hairstyles -->
@@ -225,6 +225,9 @@
             <video id="replay-video" autoplay controls muted loop playsinline width="75%">
               <source src="static/videos/multi_hairstyle.mp4" type="video/mp4">
             </video>
+            <p class="subtitle has-text-centered" style="margin-top: 1rem; font-size: 0.9rem;">
+              <strong>Column 1:</strong> Driving expression (Face Identity) | <strong>Header:</strong> Hair identities | <strong>Columns 2-4:</strong> Avatars with transferred hairstyles
+            </p>
           </div>
 
           <!--/ Single Face + Multiple Hairstyles -->
@@ -235,6 +238,9 @@
             <video id="replay-video" autoplay controls muted loop playsinline width="75%">
               <source src="static/videos/multi_facestyle.mp4" type="video/mp4">
             </video>
+            <p class="subtitle has-text-centered" style="margin-top: 1rem; font-size: 0.9rem;">
+              <strong>Column 1:</strong> Driving expression (Hair Identity) | <strong>Header:</strong> Face identities | <strong>Columns 2-4:</strong> Avatars with transferred hairstyles
+            </p>
           </div>
         </div>
       </div>
@@ -246,7 +252,7 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Paired Dataset Generation</h2>
-      <p class="subtitle has-text-centered">
+      <p class="subtitle has-text-left">
         We use a paired dataset of haired and hairless captures to learn disentangled hair and face priors by generating synthetic bald images.
       </p>
       <div id="results-carousel" class="carousel results-carousel" style="max-width: 900px; margin: 0 auto;">
@@ -275,7 +281,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Method Overview</h2>
-        <div class="content has-text-justified">
+        <div class="content has-text-justified" style="font-size: 0.9rem;">
           <p>
             HairCUP comprises ID-conditioned face/hair hypernetworks and a compositional avatar model. The hypernetworks generate multi-scale bias maps from UV-unwrapped mean albedo and geometry maps, which are added to each layer of the face/hair Gaussian decoders. The compositional model consists of hair motion and face expression encoders that produce motion and expression codes, which the decoders use to generate Gaussians. During training, face/hair data come from the same subject with multi-view supervision and segmentation-based disentanglement. At test time, face/hair ID and expression data can be mixed across subjects.
           </p>

@@ -212,7 +212,7 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3" style="max-width: 1000px; margin: 0 auto;">Hair Transfer across Avatars</h2>
+      <h2 class="title is-3" style="max-width: 1000px; margin: 0 auto; margin-bottom: 1rem;">Hair Transfer across Avatars</h2>
       <p class="subtitle has-text-left" style="margin-bottom: 2rem; max-width: 1000px; margin-left: auto; margin-right: auto;">
         HairCUP enables hair transfer across avatars by leveraging the compositionality of the model.
       </p>
@@ -273,7 +273,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Method Overview</h2>
+        <h2 class="title is-4">Method Overview</h2>
         <div class="content has-text-justified" style="font-size: 0.9rem;">
           <p>
             HairCUP comprises ID-conditioned face/hair hypernetworks and a compositional avatar model. The hypernetworks generate multi-scale bias maps from UV-unwrapped mean albedo and geometry maps, which are added to each layer of the face/hair Gaussian decoders. The compositional model consists of hair motion and face expression encoders that produce motion and expression codes, which the decoders use to generate Gaussians. During training, face/hair data come from the same subject with multi-view supervision and segmentation-based disentanglement. At test time, face/hair ID and expression data can be mixed across subjects.

@@ -4,7 +4,12 @@ This is the website for the paper [HairCUP: Hair Compositional Universal Prior f
 
 If you find HairCUP useful for your work please cite:
 ```
-TBD
+@article{kim2025haircup,
+  title={HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars},
+  author={Kim, Byungjun and Saito, Shunsuke and Nam, Giljoo and Simon, Tomas and Saragih, Jason and Joo, Hanbyul and Li, Junxuan},
+  journal={arXiv preprint arXiv:2507.19481},
+  year={2025}
+}
 ```
 <!-- ```
 @inproceedings{kim2025haircup,
